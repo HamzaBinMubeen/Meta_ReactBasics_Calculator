@@ -54,12 +54,14 @@ function App() {
           type="number" 
           placeholder="Type a number" 
         /> 
+        <br></br>
         <button onClick={plus}>Add</button> 
         <button onClick={minus}>Subtract</button>
         <button onClick={times}>Multiply</button> 
-        <button onClick={divide}>Divide</button>  
-        <button onClick={resetInput}>Reset Input</button>  
-        <button onClick={resetResult}>Reset Result</button>  
+        <button onClick={divide}>Divide</button> 
+        <br></br> 
+        <button className="redButton" onClick={resetInput}>Reset Input</button>  
+        <button className="redButton" onClick={resetResult}>Reset Result</button>  
       </form> 
     </div> 
   ); 
