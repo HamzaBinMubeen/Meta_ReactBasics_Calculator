@@ -63,6 +63,23 @@ button {
   cursor: pointer;
 }
 
+.digitbut {
+  flex-basis: calc(25% - 10px);
+  padding: 20px;
+  margin: 0px 20px;
+  align-self: center;
+  border: none;
+  border-radius: 4px;
+  background-color: #8B8378;
+  color: #F5EFE6;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.digitbut > button {
+  background-color: #1F1F1F;
+}
+
 button.redButton {
   background-color: #a90303;
   color: #F5EFE6;
